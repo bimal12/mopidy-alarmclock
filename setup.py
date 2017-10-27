@@ -37,7 +37,7 @@ setup(
     ],
     entry_points={
         'mopidy.ext': [
-            'alarmclock = mopidy_alarmclock:Extension',
+            'alarmyclock = mopidy_alarmclock:Extension',
         ],
     },
     classifiers=[

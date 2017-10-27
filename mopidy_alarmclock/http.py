@@ -27,7 +27,7 @@ class BaseRequestHandler(tornado.web.RequestHandler):
 
     def send_message(self, code):
         self.msg_store.msg_code = code
-        self.redirect('/alarmclock/')
+        self.redirect('/alarmyclock/')
 
 
 class MainRequestHandler(BaseRequestHandler):
@@ -43,7 +43,7 @@ class MainRequestHandler(BaseRequestHandler):
             playlists=playlists,
             alarm_manager=self.alarm_manager,
             message=message,
-            config=self.config['alarmclock']
+            config=self.config['alarmyclock']
         ))
 
 
