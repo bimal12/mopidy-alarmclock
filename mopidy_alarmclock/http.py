@@ -12,9 +12,9 @@ template_directory = os.path.join(os.path.dirname(__file__), 'templates')
 template_loader = tornado.template.Loader(template_directory)
 
 MESSAGES = {
-    'ok': (u'Alarm has been properly set.', 'success'),
+    'ok': (u'Alarmy has been properly set.', 'success'),
     'format': (u'The date\'s format you specified is incorrect.', 'danger'),
-    'cancel': (u'Alarm has been canceled.', 'success'),
+    'cancel': (u'Alarmy has been canceled.', 'success'),
 }
 
 
