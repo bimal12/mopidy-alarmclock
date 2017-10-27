@@ -14,7 +14,7 @@ __version__ = '0.1.6'
 
 class Extension(ext.Extension):
     dist_name = 'Mopidy-AlarmClock'
-    ext_name = 'alarmclock'
+    ext_name = 'alarmyclock'
     version = __version__
 
     def get_default_config(self):
