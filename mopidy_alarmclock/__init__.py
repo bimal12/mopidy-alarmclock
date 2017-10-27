@@ -13,7 +13,7 @@ __version__ = '0.1.6'
 
 
 class Extension(ext.Extension):
-    dist_name = 'Mopidy-AlarmClock'
+    dist_name = 'Mopidy-AlarmyClock'
     ext_name = 'alarmyclock'
     version = __version__
 
